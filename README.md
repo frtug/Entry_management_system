@@ -1,16 +1,22 @@
 # Entry_management_system
 Assignment
-# Asked for the the details of the Customer
+# Customer detials
 1. Name
 2. Email
-3. PhoneNumber
-# who is going to host
+3. Phone Number
+# Host details
 1. Name
-2. Phone Number
-3. Email
+2. Email
+3. Phone Number
+
 # Check IN
-Send mail to Host for sharing the details.
-#Check out
+Send mail to Host for sharing the details of the customer.
+# Check out
 Again it will send mail to the host with details.
 
+#All these information are stored in the Sql dataBase
 
+# MOdules used
+1. Sqlite3
+2. datetime
+3. Smtplib
