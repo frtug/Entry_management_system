@@ -1,5 +1,6 @@
 # Entry_management_system
 Assignment
+# Its a Terminal based Project
 # Customer detials
 1. Name
 2. Email
