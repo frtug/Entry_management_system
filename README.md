@@ -16,7 +16,7 @@ Again it will send mail to the host with details.
 
 #All these information are stored in the Sql dataBase
 
-# MOdules used
+# Modules used
 1. Sqlite3
 2. datetime
 3. Smtplib
