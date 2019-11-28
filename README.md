@@ -20,3 +20,8 @@ Again it will send mail to the host with details.
 1. Sqlite3
 2. datetime
 3. Smtplib
+
+# Account used 
+1 . Gmail
+# Made by only EMAIL
+
