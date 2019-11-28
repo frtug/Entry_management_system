@@ -25,3 +25,12 @@ Again it will send mail to the host with details.
 1 . Gmail
 # Made by only EMAIL
 
+
+![alt text](Screenshot 2019-11-28 at 4.37.29 PM.png)
+
+![alt text](Screenshot 2019-11-28 at 4.40.53 PM.png)
+
+![alt text](Screenshot 2019-11-28 at 4.41.06 PM.png)
+
+
+
