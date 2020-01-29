@@ -1,8 +1,11 @@
 import smtplib
 import sqlite3
-
+import os
 from datetime import datetime
 import Login
+
+dbuser = os.environ.get("DB_USER")
+dbpass = os.environ.get("DB_PASS")
 
 # for accessing and sending the mail to the Host
 def send_email(sub,msg,hostEmail):
@@ -10,9 +13,9 @@ def send_email(sub,msg,hostEmail):
         server = smtplib.SMTP('smtp.gmail.com:587')
         server.ehlo()
         server.starttls()
-        server.login(Login.EMAIL_ADDRESS,Login.PASSWORD)
+        server.login(dbuser,dbpass)
         message = 'Subject: {}\n{}'.format(sub,msg)
-        server.sendmail(Login.EMAIL_ADDRESS,hostEmail,message)
+        server.sendmail(dbuser,hostEmail,message)
         server.quit()
         print("Successful send\n")
     except:
